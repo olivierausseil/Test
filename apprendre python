@@ -1,6 +1,6 @@
 http://apprendre-python.com/page-apprendre-variables-debutant-python
 
---> Liste :
+//////////////////////Liste ////////////////////////
 // general sur les listes
 
 >>> liste = [1, 10, 100, 250, 500] # declaration d'une liste
@@ -39,4 +39,19 @@ m
 // "range" genere une liste composée d'une simple suite arithmétique
 
 // extend permet de mettre 2 listes a la suite (x[] et y[]) --> x.extend(y)
+
+///////////////////////////////// fin liste ////////////////////////////////
+
+///////////////////////////////// tuples ///////////////////////////////////
+// liste mais qui ne peut etre modifiee, constante que l'on ne modifiera pas
+mon_tuple = (1, "ok", "olivier")
+type(mon_tuple)
+>>> <type 'tuple'>
+// Meme syntaxe pour faire des demandes d'affichage de valeur 
+
+///////////////////////////////// fin tuples ///////////////////////////////
+
+//////////////////////////////// dictionnaire //////////////////////////////
+// Un dictionnaire en python est une sorte de liste mais au lieu d'utiliser des index, on utilise des clés, c'est à dire des valeurs autres que numériques.
+a = {}
 
