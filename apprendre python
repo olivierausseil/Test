@@ -1,4 +1,42 @@
 http://apprendre-python.com/page-apprendre-variables-debutant-python
 
-Simple a premiere vue
+--> Liste :
+// general sur les listes
+
+>>> liste = [1, 10, 100, 250, 500] # declaration d'une liste
+>>> liste[0]
+1
+>>> liste[-1] # Cherche la dernière occurence
+500
+>>> liste[-4:] # Affiche les 4 dernières occurrences
+[500, 250, 100, 10]
+>>> liste[:] # Affiche toutes les occurences
+[1, 10, 100, 250, 500]
+>>> liste[2:4] = [69, 70]
+[1, 10, 69, 70, 500]
+>>> liste[:] = [] # vide la liste
+[]
+
+// Boucle sur les listes : 
+>>> liste = ["a","d","m"]
+>>> for lettre in liste:
+...     print lettre
+... 
+a
+d
+m
+
+// Copie de liste
+>>> x = [1,2,3]
+>>> y = x[:]
+// et non pas 
+>>> y = x // Or si vous changez une valeur de la liste y, la liste x sera elle aussi affectée par cette modification
+
+// Possibilité de transformer chaine en "liste" avec split et inversement avec "join" (voir cours)
+
+// Trouver item dans une liste -- > utilisé "in"
+
+// "range" genere une liste composée d'une simple suite arithmétique
+
+// extend permet de mettre 2 listes a la suite (x[] et y[]) --> x.extend(y)
 
